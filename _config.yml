@@ -9,14 +9,14 @@ twitter:            "jonathanyan"
 email:              "jonathanyan@gmail.com"
 github:             "jonathanyan"
 pinterest:          "jonathanyan"
-linkedin:           "jonathanyan"
+linkedin:           "jonathan-yan-6479ab22"
 facebook:           "jonathanyan"
 
 disqus_shortname:   "jon"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
-paginate:           5
+paginate:           25
 paginate_path:      "/page:num/"
 
 baseurl:            ""
