@@ -1,0 +1,51 @@
+name:               "Jon"
+description:        "live on chain"
+
+url:                ""
+author:             "Jonathan Yan"
+email:              "jontera@gmail.com"
+gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
+twitter:            "jonathanyan"
+email:              "jonathanyan@gmail.com"
+github:             "jonathanyan"
+pinterest:          "jonathanyan"
+linkedin:           "jonathanyan"
+facebook:           "jonathanyan"
+
+disqus_shortname:   "thinker3197"
+
+background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
+nav:
+  - name:           "About"
+    href:           "/about"
+  - name:           "Download"
+    href:           "/releases"
+
+sass:
+  style:            :compressed
+
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
+gems:
+  - jekyll-paginate
